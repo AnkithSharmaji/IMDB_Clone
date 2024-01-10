@@ -1,73 +1,56 @@
-# Getting Started with Create React App
 
-https://boisterous-tiramisu-b540b3.netlify.app/imdb
+# IMDb Clone
+
+An IMDb clone project created using React and data fetched from The Movie Database (TMDb) API.
+
+## Overview
+
+IMDb Clone is an online database of information related to films, television series, etc. You can find ratings and reviews for the newest movies and TV shows. The project aims to replicate the user interface and features of the popular IMDb website.
+
+# Hosted Link 
+* To view the IMDb Clone, click [here](https://boisterous-tiramisu-b540b3.netlify.app/imdb).
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Handling Routes with React Router Dom](#handling-routes-with-react-router-dom)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- View popular movies, top-rated movies, upcoming movies, etc.
+- Search for movies by title.
+- View movie details including cast, crew, ratings, and reviews.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+- React
+- JavaScript (ES6+)
+- CSS (styled-components)
+- The Movie Database (TMDb) API
+- [Material-UI](https://mui.com) - A React UI framework
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with the project, follow these steps:
 
-### `npm test`
+1. Clone the repository:
+   - git clone https://github.com/your-username/imdb-clone.git
+2. Install dependencies:
+   - cd imdb-clone
+   - npm install
+3. Start the development server:
+   - npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+Users can interact with the IMDb Clone by navigating through the user-friendly interface. Key features include:
 
-### `npm run build`
+* View popular movies, top-rated movies, upcoming movies, etc.
+* Search for movies by title.
+* View detailed information about each movie, including cast, crew, ratings, and reviews.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Handling Routes with React Router Dom
+When using React Router Dom, it handles all the routes. However, if you directly go to an endpoint, Netlify must know where to redirect you. To address this, the IMDb Clone app uses **_/imdb_** as the endpoint to ensure proper redirection.
