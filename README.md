@@ -17,6 +17,7 @@ IMDb Clone is an online database of information related to films, television ser
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Handling Routes with React Router Dom](#handling-routes-with-react-router-dom)
+- [Screenshots](#screenshots)
 
 
 ## Features
@@ -54,3 +55,10 @@ Users can interact with the IMDb Clone by navigating through the user-friendly i
 
 ## Handling Routes with React Router Dom
 When using React Router Dom, it handles all the routes. However, if you directly go to an endpoint, Netlify must know where to redirect you. To address this, the IMDb Clone app uses **_/imdb_** as the endpoint to ensure proper redirection.
+
+
+## Screenshots
+<img width="1440" alt="Screenshot 2024-01-10 at 8 48 38 PM" src="https://github.com/AnkithSharmaji/IMDB_Clone/assets/86291521/369259dd-b12a-4ba1-b74b-878e61b66b9a">
+<img width="1436" alt="Screenshot 2024-01-10 at 8 48 47 PM" src="https://github.com/AnkithSharmaji/IMDB_Clone/assets/86291521/87ab5069-19b3-4bca-8ca6-5d7aca1fa740">
+<img width="1440" alt="Screenshot 2024-01-10 at 8 48 56 PM" src="https://github.com/AnkithSharmaji/IMDB_Clone/assets/86291521/aaadb39a-b13e-46b8-9932-f05086370d49">
+<img width="1436" alt="Screenshot 2024-01-10 at 8 49 06 PM" src="https://github.com/AnkithSharmaji/IMDB_Clone/assets/86291521/9f65022e-b198-4e45-b9c8-0992dc0c3f0f">
